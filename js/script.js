@@ -9,11 +9,11 @@ $(document).ready(function(){
   // fare ciclo for per generare la lista dei giorni
   for ( i=1; i < numGiorni; i++) {
   // handlebars template
-  var source = $("calendario-template").html();
+  var source = $("#calendario-template").html();
   var template = Handlebars.compile(source);
 
   var context = {
-    "day" : numGiorni[i],
+    "day" : [i],
     "month": "january",
     "year": dataIniziale.year()
   };
