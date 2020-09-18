@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 500px;
+  margin: auto;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.arrow {
+  width: 200px;
+}
+
+.flex {
+  display: flex;
+  justify-content:  space-around;
+}
+
+.arrow.next {
+  text-align: right;
+}
+
+.wrapper_main {
+  width: 500px;
+  margin: auto;
+}

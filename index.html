@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>ex-dischi-musicali</title>
+        <title>calendario</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://momentjs.com/downloads/moment.js" charset="utf-8"></script>
@@ -10,9 +10,31 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+      <header>
+        <div class="wrapper">
+          <h1>MONTH</h1>
+          <div class="container_arrow flex">
+            <div class="arrow previous">
+              <span>&lt; previous &gt;</span>
+            </div>
+            <div class="arrow next">
+                <span>&lt; next &gt;</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="wrapper_main">
+
+        </div>
+      </main>
 
 
-        <script id="dischi-template" type="text/x-handlebars-template">
+
+        <script id="calendario-template" type="text/x-handlebars-template">
+          <ul>
+            <li>{{day}} {{month}} {{year}}</li>
+          </ul>
 
         </script>
 
