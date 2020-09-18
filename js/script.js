@@ -14,8 +14,8 @@ $(document).ready(function(){
 
   var context = {
     "day" : numGiorni[i],
-    "title": "january",
-    "body": dataIniziale.year()
+    "month": "january",
+    "year": dataIniziale.year()
   };
     var html = template(context);
 
